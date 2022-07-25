@@ -36,7 +36,7 @@ export const InscripcionScreen = () => {
                                     <input type="text" disabled value={materia.año} className="text-center mt-2 rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-gray-900 text-gray-100 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" name="email" placeholder="Your name" />
                                 </div>
                                 <div className="w-1/3 mr-5 text-center">
-                                    <label htmlFor="name-with-label" className="text-gray-700 sm:text-xl text-md">
+                                    <label htmlFor="name-with-label" className="text-gray-700 sm:text-xl text-sm">
                                         Plan de Estudio
                                     </label>
                                     <input type="text" disabled value={materia.plan} className="text-center mt-3 sm:mt-2 rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-gray-900 text-gray-100 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" name="email" placeholder="Your name" />
